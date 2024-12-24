@@ -1,0 +1,3 @@
+/mnt/c/Users/MaxDYF/Documents/Code/React Project/Molecular Formula Calulator/backend/cmake-build-release-wsl/CMakeFiles/MFCalc.dir
+/mnt/c/Users/MaxDYF/Documents/Code/React Project/Molecular Formula Calulator/backend/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/Users/MaxDYF/Documents/Code/React Project/Molecular Formula Calulator/backend/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir

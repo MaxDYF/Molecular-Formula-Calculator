@@ -1,0 +1,3 @@
+/home/maxdyf/Project/Molecular Formula Calulator/backend/build/CMakeFiles/MFCalc.dir
+/home/maxdyf/Project/Molecular Formula Calulator/backend/build/CMakeFiles/edit_cache.dir
+/home/maxdyf/Project/Molecular Formula Calulator/backend/build/CMakeFiles/rebuild_cache.dir
