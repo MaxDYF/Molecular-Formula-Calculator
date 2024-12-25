@@ -90,6 +90,12 @@ void Molecule::parseFromString(PTable &table, std::string_view str) {
 		else
 			throw std::invalid_argument(ILLEGAL_STRING_ERROR);
 	}
+	while (moleStack.empty() == false) {
+		if (moleStack.top().isBracket == true)
+			throw std::invalid_argument(ILLEGAL_STRING_ERROR);
+		(*this).join(moleStack.top().mole);
+		moleStack.pop();
+	}
 }
 std::unordered_map<std::string, int> Molecule::getElements(PTable &table) {
 	std::unordered_map<std::string, int> s;

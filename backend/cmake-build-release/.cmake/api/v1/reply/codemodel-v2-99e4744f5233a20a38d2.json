@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Molecular_Formula_Calculator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MFCalc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MFCalc-Release-e027038e4ad6983338be.json",
+					"name" : "MFCalc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/maxdyf/Documents/\u4ee3\u7801/\u6570\u636e\u7ed3\u6784\u8bfe\u8bbe/Molecular-Formula-Calculator/backend/cmake-build-release",
+		"source" : "/Users/maxdyf/Documents/\u4ee3\u7801/\u6570\u636e\u7ed3\u6784\u8bfe\u8bbe/Molecular-Formula-Calculator/backend"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

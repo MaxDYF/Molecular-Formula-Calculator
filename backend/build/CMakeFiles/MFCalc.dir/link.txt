@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/MFCalc.dir/src/server.cpp.o -o MFCalc  /usr/lib/x86_64-linux-gnu/libcpprest.so.2.10 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

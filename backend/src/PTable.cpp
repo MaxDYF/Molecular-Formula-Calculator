@@ -11,7 +11,9 @@ void PTable::importElementTable(const std::string& address) {
     char comma;
     while (fin.eof() == false) {
         std::getline(fin, elem.elementName, ',');
+        fin >> std::ws;
         std::getline(fin, elem.shortName, ',');
+        fin >> std::ws;
         fin >> elem.eID >> comma >> elem.weight;
         fin >> std::ws;
 

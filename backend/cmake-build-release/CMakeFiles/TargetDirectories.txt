@@ -1,0 +1,3 @@
+/Users/maxdyf/Documents/代码/数据结构课设/Molecular-Formula-Calculator/backend/cmake-build-release/CMakeFiles/MFCalc.dir
+/Users/maxdyf/Documents/代码/数据结构课设/Molecular-Formula-Calculator/backend/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/maxdyf/Documents/代码/数据结构课设/Molecular-Formula-Calculator/backend/cmake-build-release/CMakeFiles/rebuild_cache.dir

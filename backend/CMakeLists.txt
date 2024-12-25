@@ -3,6 +3,7 @@ project (Molecular_Formula_Calculator)
 
 # 查找当前目录下的所有源文件
 # 并将名称保存到 DIR_SRCS 变量
+SET(CMAKE_CXX_STANDARD 20)
 file(GLOB_RECURSE DIR_SRCS "./src/*.cpp")
 
 find_package(cpprestsdk REQUIRED)
