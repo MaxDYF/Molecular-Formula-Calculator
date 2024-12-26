@@ -27,7 +27,7 @@ function App() {
     });
     const handleOnSubmit = (value) => {
         setInputValue(value);
-        getFormulaResult(inputValue, `${server_url}/calc`).then((json) => {
+        getFormulaResult(value, `${server_url}/calc`).then((json) => {
             setResult(json);
             if (typeof json === "string") setError(true);
             else setError(false);
@@ -63,7 +63,7 @@ function App() {
                     alignItems: "center",
                 }}
             >
-                <InputBox handleOnSubmit={handleOnSubmit} isError={error}/>
+                <InputBox handleOnSubmit={handleOnSubmit} isError={error} />
                 <Box
                     sx={{
                         minHeight: "300px",

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import FileUploader from "./FileUploader";
 function InputBox({ handleOnSubmit, isError }) {
     // 使用useState钩子来管理输入框的状态
     const [inputValue, setInputValue] = useState("");
@@ -23,12 +24,17 @@ function InputBox({ handleOnSubmit, isError }) {
                     value={inputValue}
                     onChange={handleInputChange}
                     sx={{ mr: 1 }}
-					error={isError}
+                    error={isError}
                 />
                 <Button variant="contained" onClick={handleSubmit}>
                     提交
                 </Button>
             </Box>
+
+            <FileUploader
+                setInputValue={setInputValue}
+                submitValue={handleOnSubmit}
+            />
         </div>
     );
 }
